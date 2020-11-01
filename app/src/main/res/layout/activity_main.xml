@@ -6,23 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-
-  
-
-
     <TextView
 
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bayan is here "
-        android:text="Maha here!"
         tools:layout_editor_absoluteX="170dp"
         tools:layout_editor_absoluteY="422dp"
         tools:ignore="MissingConstraints" />
 
- 
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="maha"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="356dp" />
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
