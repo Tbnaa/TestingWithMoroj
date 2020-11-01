@@ -44,12 +44,13 @@
         app:layout_constraintVertical_bias="0.455" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Malak"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Malak here"
         tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="485dp" />
+        tools:layout_editor_absoluteY="485dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
