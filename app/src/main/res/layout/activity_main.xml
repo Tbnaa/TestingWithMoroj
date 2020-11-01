@@ -33,24 +33,16 @@
         android:text="Jumana was here."
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="388dp" />
-  <TextView
 
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Jumana was here."
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="388dp" /> 
-  <TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="shahad !"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-  
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
