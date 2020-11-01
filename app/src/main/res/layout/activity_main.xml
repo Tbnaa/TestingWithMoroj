@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello Bayan!"
@@ -16,14 +17,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="shahad !"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Maha here!"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="422dp" />
 
+ 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -32,12 +34,14 @@
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="388dp" />
   <TextView
+
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Maha here!"
+        android:text="Jumana was here."
         tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="388dp" /> <TextView
+        tools:layout_editor_absoluteY="388dp" /> 
+  <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="shahad !"
@@ -45,14 +49,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-   <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="shahad !"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+  
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
