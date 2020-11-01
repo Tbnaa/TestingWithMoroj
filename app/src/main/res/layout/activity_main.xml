@@ -7,12 +7,33 @@
     tools:context=".MainActivity">
 
     <TextView
+<<<<<<< HEAD
         android:layout_width="61dp"
         android:layout_height="10dp"
         android:text="Hello Malak!"
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Bayan!"
+>>>>>>> 3a8efa718ae693175c2c6d666d62e6f894fc0874
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumana was here."
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="388dp" />
+  <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maha here!"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="388dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
